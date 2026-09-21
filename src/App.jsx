@@ -1,10 +1,14 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { decrement, increment, reset } from './redux/slices/counter'
 
 const App = () => {
 
 const dispatch = useDispatch()
+const count = useSelector((state) => state.counter)
+
+// console.log(count);
+
 
   return (
     <div className='bg-blue-950 h-screen text-blue-50'>
