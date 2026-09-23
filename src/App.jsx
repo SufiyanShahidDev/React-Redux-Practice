@@ -11,7 +11,6 @@ const App = () => {
 
   // console.log(count);
 
-
   return (
     <div className='bg-blue-950 h-screen text-blue-50'>
       <h1 className='font-bold text-4xl underline flex pt-5 justify-center'>Counter Application</h1>
